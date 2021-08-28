@@ -2,6 +2,61 @@ body {
 	background: rgb(216, 213, 213);
 }
 
-.nav-item {
+.navbar{
+	padding: 5px;
+	position: relative;
+	background: white;
+
+}
+
+.navbar-brand{
+	display: inline-block;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 30px;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	/* color: #fff;  */
+	background: rgb(10, 155, 140)
+}
+
+.navbar-brand a{
+	color: white 
+}
+
+.nav-item li{
 	float: right;
+}
+
+.header { 
+	color: rgb(10, 155, 140);
+	font-family: "Brush Script MT";
+	font-size: 45px;
+	font-weight: bold;
+}
+
+/* .header h2{ 
+	color: rgb(5, 189, 170);
+	font-family: "Brush Script MT";
+	font-size: 45px;
+	font-weight: bold;
+} */
+
+#navbarNavDropdown {
+	position: relative;
+	left: 68%
+}
+
+#page_header{
+	color: white
+}
+
+.main{
+	background: white;
+	padding: 50px
+}
+
+.main_text{
+	font-size: 15pt;
 }
