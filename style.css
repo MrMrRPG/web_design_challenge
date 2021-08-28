@@ -52,7 +52,7 @@ body {
 	color: white
 }
 
-.main{
+.container{
 	background: white;
 	padding: 50px
 }
@@ -60,3 +60,7 @@ body {
 .main_text{
 	font-size: 15pt;
 }
+
+/* .col-md-12{
+	/* background: black */
+} */
