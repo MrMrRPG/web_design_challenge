@@ -4,7 +4,7 @@ body {
 
 .navbar{
 	padding: 5px;
-	position: relative;
+	/* position: relative; */
 	background: white;
 
 }
@@ -25,9 +25,9 @@ body {
 	color: white 
 }
 
-.nav-item li{
+/* .nav-item li{
 	float: right;
-}
+} */
 
 .header { 
 	color: rgb(10, 155, 140);
@@ -46,7 +46,7 @@ body {
 } */
 
 #navbarNavDropdown {
-	position: relative;
+	/* position: relative; */
 	left: 68%
 }
 

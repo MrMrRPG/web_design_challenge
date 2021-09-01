@@ -13,28 +13,10 @@
   </head>
 
   <body>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- nav-bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" id="page_header" href="index.html"
-          >Latitude</a
-        >
+        <a class="navbar-brand" id="page_header" href="index.html">Latitude</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -64,11 +46,19 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a class="dropdown-item" href="comparisions.html"
-                    >Comparison</a
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="max_temp.html"
+                    >Max Temperature</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="data.html">Data</a></li>
+                <li>
+                  <a class="dropdown-item" href="wind_spd.html">Wind Speed</a>
+                </li>
                 <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
               </ul>
             </li>
@@ -102,7 +92,11 @@
               />
               <!-- <img src="Resources/assets/images/Fig1.png" class = "visualization rounded float-left" alt="graph"> -->
               <p class="main_text">
-                There was minimal correlations between latitude and humidity. Our data shows that a lot of places throughout latitude -22 to +78 has humidity at 100%. This could be explained by at different latitudes has different biomes and natural habitats for different speicies that regulates humidity differently.
+                There was minimal correlations between latitude and humidity.
+                Our data shows that a lot of places throughout latitude -22 to
+                +78 has humidity at 100%. This could be explained by at
+                different latitudes has different biomes and natural habitats
+                for different speicies that regulates humidity differently.
               </p>
 
               <!-- <p class="main_text">
@@ -179,5 +173,15 @@
 
 </div> -->
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
